@@ -41,7 +41,7 @@ function Cell(i, j) {
     rect(x, y, w, w);
   }
 
-  this.show = function() {
+  this.draw = function() {
     var x = this.i*w;
     var y = this.j*w;
     stroke(255);

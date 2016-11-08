@@ -23,7 +23,7 @@ function setup() {
 function draw() {
   background(51);
   for (var i = 0; i < grid.length; i++) {
-    grid[i].show();
+    grid[i].draw();
   }
 
   current.visited = true;
